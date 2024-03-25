@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-GB" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {%- assign sorted_pages = site.pages | sort: "title" -%}
+      {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
+      {%- for page in sorted_pages -%}
+        {% assign ext = page.url | split:'.' | last %}
+        {% if ext != "css" %}
+          <a href="{{ page.url | absolute_url }}" class="btn">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+      <a href="https://kdd2024.kdd.org/" class="btn">KDD 2024</a>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1>{{ page.header | default: page.title }}</h1>
+
+      {{ content }}
+    </main>
+  </body>
+</html>
