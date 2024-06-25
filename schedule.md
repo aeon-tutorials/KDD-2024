@@ -4,7 +4,7 @@ title: Schedule
 nav_order: 2
 ---
 
-- Introduction to Time Series Machine Learning - (15 Minutes, TB)
+- Introduction to Time Series Machine Learning - (15 Minutes, by TB)
 
     todo
 
