@@ -6,11 +6,11 @@ nav_order: 2
 
 - Introduction to Time Series Machine Learning (TB)
 
-todo
+    todo
 
 - Distance Measure for Time Series (GW)
 
-todo
+    todo
 
 - Convolutional Kernels: (GW)
 - Summary Features: (MM)
