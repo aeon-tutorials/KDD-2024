@@ -10,15 +10,15 @@ nav_order: 2
 
 - Distance Measure for Time Series (GW)
 
-    Many classifiers and regressors use a distance or similarity functions between whole time series as the basis for prediction. Historically, distance functions have been mostly used with Nearest Neighbour (NN) classifiers such as 1-NN Dynamic Time Warping (1NN-DTW). Alternative uses of time series distances are described in~\cite{abanda19distance}. We will highlight recent work in comparing time series using distances and give a hands-on demonstration of how we can define a new distance function in __aeon__ to use with __scikit-learn__ or __aeon__ estimators.
+    Many classifiers and regressors use a distance or similarity functions between whole time series as the basis for prediction. Historically, distance functions have been mostly used with Nearest Neighbour (NN) classifiers such as 1-NN Dynamic Time Warping (1NN-DTW). Alternative uses of time series distances are described in~\cite{abanda19distance}. We will highlight recent work in comparing time series using distances and give a hands-on demonstration of how we can define a new distance function in _aeon_ to use with _scikit-learn_ or _aeon_ estimators.
 
 - Convolutional Kernels (15 Mins, by GW)
 
-    Kernel/Convolution classifiers use convolutions with kernels, which can be seen as subseries used to derive discriminatory features. Each kernel is convolved with a time series through a sliding dot product creating an activation map. We will review the ROCKET family of algorithms and use these algorithms to demonstrate parameter tuning in __aeon__. 
+    Kernel/Convolution classifiers use convolutions with kernels, which can be seen as subseries used to derive discriminatory features. Each kernel is convolved with a time series through a sliding dot product creating an activation map. We will review the ROCKET family of algorithms and use these algorithms to demonstrate parameter tuning in _aeon_. 
 
 - Summary Features (15 Mins, by MM)
 
-    A family of popular approaches involve extracting global features passed to a standard estimator in a simple pipeline. We will review popular feature generators such as Catch22 and TSFresh, and demonstrate how to create simple feature estimators using the __aeon__ transformation interface and the pipeline utilities present in both __aeon__ and __scikit-learn__.
+    A family of popular approaches involve extracting global features passed to a standard estimator in a simple pipeline. We will review popular feature generators such as Catch22 and TSFresh, and demonstrate how to create simple feature estimators using the _aeon_ transformation interface and the pipeline utilities present in both _aeon_ and _scikit-learn_.
 
 - Phase Dependant Intervals: (15 Mins, by MM)
 
@@ -34,7 +34,7 @@ nav_order: 2
 
 - Phase Independant Shapelets (15 Mins, by TB)
 
-    Shapelets are phase independent discriminatory subseries taken from the training data. They have proved a popular primitive for classification. One feature of shapelets is the ability to trace important shapelets back to the training data to give domain specific insights. We will demonstrate how to simply do this in __aeon__.
+    Shapelets are phase independent discriminatory subseries taken from the training data. They have proved a popular primitive for classification. One feature of shapelets is the ability to trace important shapelets back to the training data to give domain specific insights. We will demonstrate how to simply do this in _aeon_.
 
 - Hybrid Approaches (15 Mins, by TB)
 
@@ -42,7 +42,7 @@ nav_order: 2
 
 - A Case Study of Electroencephalography (EEG) Data - (15 Mins, by TB)
 
-    Classification and regression problems commonly arise EEG research: in medicine there are applications in early disease diagnosis and, for example, understanding fibromyalgia. In psychology EEG are used to study the brain processes underlying attention, learning, and memory. In BCI the task is to link patterns of EEG to physical or virtual actions. Each field has an extensive literature and preferences for algorithms. We use examples of EEG classification and regression to demonstrate standard workflows using __aeon__, to explore algorithm capabilities for high dimensional, unequal length data with potential missing values and to assess the scalability of selected algorithms.
+    Classification and regression problems commonly arise EEG research: in medicine there are applications in early disease diagnosis and, for example, understanding fibromyalgia. In psychology EEG are used to study the brain processes underlying attention, learning, and memory. In BCI the task is to link patterns of EEG to physical or virtual actions. Each field has an extensive literature and preferences for algorithms. We use examples of EEG classification and regression to demonstrate standard workflows using _aeon_, to explore algorithm capabilities for high dimensional, unequal length data with potential missing values and to assess the scalability of selected algorithms.
 
 - Conclusion and Future Outlook (15 Mins, by TB)
 
