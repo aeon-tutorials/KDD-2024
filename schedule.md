@@ -4,7 +4,7 @@ title: Schedule
 nav_order: 2
 ---
 
-The tutorial is on Monday, August 26 starting at 13:00.
+The tutorial is on Monday, August 26 starting at 13:00. The speakers will be availalbe afterwards for Q&A, as well as during the presentation via text (link to come).
 
 - Introduction to Time Series Machine Learning - (13:00, 15 Minutes, by TB)
 
@@ -50,6 +50,6 @@ The tutorial is on Monday, August 26 starting at 13:00.
 
     Classification and regression problems commonly arise EEG research: in medicine there are applications in early disease diagnosis and, for example, understanding fibromyalgia. In psychology EEG are used to study the brain processes underlying attention, learning, and memory. In brain-computer interface (BCI) the task is to link patterns of EEG to physical or virtual actions. Each field has an extensive literature and preferences for algorithms. We use examples of EEG classification and regression to demonstrate standard experimental workflows using _aeon_, to explore algorithm capabilities for high dimensional, unequal length data with potential missing values and to assess the scalability of selected algorithms.
 
-- Conclusion and Future Outlook - (13:45, 15 Minutes, by TB)
+- Conclusion and Future Outlook - (15:45, 15 Minutes, by TB)
 
     We conclude our tutorial, with some discussion of future work in the fields of TSC and TSER.
