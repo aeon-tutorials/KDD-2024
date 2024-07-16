@@ -34,22 +34,20 @@ The tutorial is on Monday, August 26 starting at 13:00. The speakers will be ava
 
     Dictionary based approaches use histograms of counts of repeating patterns as features for the estimator. We will describe these estimators and use them to highlight different design patterns used in TSC and TSER research in terms of ensembles vs pipelines and randomisation vs optimisation.  
 
-- Deep Learning for Time Series - (14:45, 15 Minutes, by GF)
+- Deep Learning for Time Series - (14:45, 25 Minutes, by GF)
 
     Since a review of deep learning classification in 2019 numerous algorithms have been proposed, such as __InceptionTime__ and its variants. We will provide a short summary of work in this area before reviewing the basic structure of networks and how to structure a new deep learning estimator. 
 
-- Phase Independant Shapelets - (15:00, 15 Minutes, by TB)
+- Phase Independant Shapelets - (15:10, 15 Minutes, by TB)
 
     Shapelets are phase independent discriminatory subseries taken from the training data. They have proved a popular primitive for classification. One feature of shapelets is the ability to trace important shapelets back to the training data to give domain specific insights. We will demonstrate how to simply do this in _aeon_.
 
-- Hybrid Approaches - (15:15, 15 Minutes, by TB)
+- Hybrid Approaches - (15:25, 15 Minutes, by TB)
 
     This type of method combines two or more of the above approaches. The nature of the data and the problem dictate which category of algorithm is most appropriate. The most accurate algorithms on average, with no a-priori knowledge of the best approach, combine multiple transformation types in a hybrid algorithm. We will demonstrate how to build a bespoke hybrid ensemble classifier using the estimators covered in the tutorial.
 
-- A Case Study of Electroencephalography (EEG) Data - (15:30, 15 Minutes, by TB)
-
-    Classification and regression problems commonly arise EEG research: in medicine there are applications in early disease diagnosis and, for example, understanding fibromyalgia. In psychology EEG are used to study the brain processes underlying attention, learning, and memory. In brain-computer interface (BCI) the task is to link patterns of EEG to physical or virtual actions. Each field has an extensive literature and preferences for algorithms. We use examples of EEG classification and regression to demonstrate standard experimental workflows using _aeon_, to explore algorithm capabilities for high dimensional, unequal length data with potential missing values and to assess the scalability of selected algorithms.
-
-- Conclusion and Future Outlook - (15:45, 15 Minutes, by TB)
+- Conclusion and Future Outlook - (15:40, 10 Minutes, by TB)
 
     We conclude our tutorial, with some discussion of future work in the fields of TSC and TSER.
+
+- Q&A (15:50, 10 Minutes)
