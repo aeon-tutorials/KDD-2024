@@ -22,7 +22,7 @@ The tutorial is on Monday, August 26 starting at 14:00. The speakers will be ava
 
     A family of popular approaches involve extracting global features passed to a standard estimator in a simple pipeline. We will review popular feature generators such as __Catch22__ and __TSFresh__, and demonstrate how to create simple feature estimators using the _aeon_ transformation interface and the pipeline utilities present in both _aeon_ and _scikit-learn_.
 
-- Phase Dependant Intervals - (15:00, 15 Minutes, by Matthew Middlehurst)
+- Phase Dependent Intervals - (15:00, 15 Minutes, by Matthew Middlehurst)
 
     Features found from the whole series may be confounded by noise. Another family of algorithms mitigate against this by finding intervals from numerous extracted subseries called intervals. In addition to demonstrating usage and providing examples of when interval methods may be useful, we will demonstrate some of the visualisation techniques available for evaluating feature importance.
 
@@ -38,7 +38,7 @@ The tutorial is on Monday, August 26 starting at 14:00. The speakers will be ava
 
     Since a review of deep learning classification in 2019 numerous algorithms have been proposed, such as __InceptionTime__ and its variants. We will provide a short summary of work in this area before reviewing the basic structure of networks and how to structure a new deep learning estimator. 
 
-- Phase Independant Shapelets - (16:10, 15 Minutes, by Anthony Bagnall)
+- Phase Independent Shapelets - (16:10, 15 Minutes, by Anthony Bagnall)
 
     Shapelets are phase independent discriminatory subseries taken from the training data. They have proved a popular primitive for classification. One feature of shapelets is the ability to trace important shapelets back to the training data to give domain specific insights. We will demonstrate how to simply do this in _aeon_.
 
