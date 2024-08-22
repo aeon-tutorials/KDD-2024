@@ -1,1 +1,4 @@
-aeon==0.11.0
+aeon==0.11.0,
+tsfresh==0.20.2,
+torch==2.2.2,
+tensorflow==2.17.0

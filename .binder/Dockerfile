@@ -22,4 +22,4 @@ WORKDIR ${HOME}
 
 # Install aeon based on master branch
 RUN pip install --upgrade pip --no-cache-dir
-RUN pip install -U -r requirements.txt
+RUN pip install -U aeon==0.11.0
