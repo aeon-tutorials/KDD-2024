@@ -30,7 +30,7 @@ The tutorial is on Monday, August 26 starting at 14:00. The speakers will be ava
 
     [Slides]() & [Notebook]()
 
-- Phase Dependant Intervals - (15:00, 15 Minutes, by Matthew Middlehurst)
+- Phase Dependent Intervals - (15:00, 15 Minutes, by Matthew Middlehurst)
 
     Features found from the whole series may be confounded by noise. Another family of algorithms mitigate against this by finding intervals from numerous extracted subseries called intervals. In addition to demonstrating usage and providing examples of when interval methods may be useful, we will demonstrate some of the visualisation techniques available for evaluating feature importance.
 
@@ -51,7 +51,7 @@ The tutorial is on Monday, August 26 starting at 14:00. The speakers will be ava
 
     [Slides]() & [Notebook]()
 
-- Phase Independant Shapelets - (16:10, 15 Minutes, by Anthony Bagnall)
+- Phase Independent Shapelets - (16:10, 15 Minutes, by Anthony Bagnall)
 
     Shapelets are phase independent discriminatory subseries taken from the training data. They have proved a popular primitive for classification. One feature of shapelets is the ability to trace important shapelets back to the training data to give domain specific insights. We will demonstrate how to simply do this in _aeon_.
 
