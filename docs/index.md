@@ -11,6 +11,8 @@ Time series classification and regression are rapidly evolving fields that find 
 
 This tutorial is aimed at those interested in time series machine learning research, with a focus on classification and regression with ordered data. We use EEG problems to demonstrate all key time series classification and regression methods, but we aim to appeal to any data scientist whose area of application may give rise to such data.
 
+The talk will be a mix of lecture style and code examples. There will be a Jupyter notebook available for each topic, while it is not likely all the content in these will be covered in the talk itself we invite viewers to run through them ask any questions they have.
+
 ## Prerequisites
 
 - Basic machine learning background

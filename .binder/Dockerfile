@@ -22,4 +22,4 @@ WORKDIR ${HOME}
 
 # Install aeon based on master branch
 RUN pip install --upgrade pip --no-cache-dir
-RUN pip install -U "aeon[binder] @ git+https://github.com/aeon-toolkit/aeon.git@main"
+RUN pip install -U -r requirements.txt
