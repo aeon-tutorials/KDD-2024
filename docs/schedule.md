@@ -4,7 +4,7 @@ title: Schedule
 nav_order: 2
 ---
 
-The tutorial is on __Monday, August 26__ starting at __14:00__ in room __124-125__. The speakers will be available afterwards for Q&A, as well as during the presentation via text (link to come).
+The tutorial is on __Monday, August 26__ starting at __14:00__ in room __124-125__. The speakers will be available afterwards for Q&A, as well as during the presentation via text in the sessions Whova chat.
 
 - Introduction to Time Series Machine Learning - (14:00, 15 Minutes, by Anthony Bagnall)
 
