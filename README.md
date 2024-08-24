@@ -6,3 +6,5 @@
 Our tutorial website is available [here](aeon-tutorials.github.io/KDD-2024/).
 
 The tutorial schedule is available on [this page](https://aeon-tutorials.github.io/KDD-2024/schedule.html) and guidance on how to run the code is available [here](https://aeon-tutorials.github.io/KDD-2024/code.html).
+
+Note: by default Binder will only install `aeon` and its core dependencies. A `requirements.txt` file is provided for additional dependencies and fixed versions.
