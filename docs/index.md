@@ -13,7 +13,7 @@ The talk will be a mix of lecture style and code examples. There will be a Jupyt
 
 - **Conference:** [KDD 2024](https://www.kdd.org/kdd2024/)
 - **Date:** Monday, August 26
-- **Time:** 14:00 (EEST)
+- **Time:** 14:00
 - **Room:** 124-125
 
 ## Target Audience
